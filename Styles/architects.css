@@ -1,5 +1,5 @@
 
-.inter-uniquifier {
+.inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -14,6 +14,17 @@
   font-weight: 700;
   font-style: normal;
 }
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 /* Shareed styles */
 .display-flex{
   display: flex;
@@ -21,11 +32,21 @@
 .dark-1{
   color: #3A3A3A;
 }
+.dark-2{
+ color: #18191F;
+}
+.dark-3{
+  color: #787885;
+  font-weight: bold;
+}
 .font-14{
   font-size: 14px;
 }
 .font-16{
   font-size: 16px;
+}
+.font-28{
+  font-size: 28px;
 }
 
 /* Navber Sryles */
@@ -89,4 +110,41 @@
   margin-left: 90px;
   margin-right: 60px;
   padding: 35px 35px ;
+}
+
+/* Popular Collection */
+
+.collection-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 0 100px;
+}
+
+/* card styles */
+
+.card-img{
+  height: 256px;
+  width: 300px;
+  margin-bottom: 0;
+}
+.Collection-title{
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.card-item{
+  border-radius: 5px;
+  padding: 16px 14px;
+  margin-bottom: 10px;
+  /* box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.15); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-price{
+  font-weight: 400;
+  font-size: 24px;
+}
+.bg-cl{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 10px 0;
 }
