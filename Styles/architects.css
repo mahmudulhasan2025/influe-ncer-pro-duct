@@ -94,7 +94,6 @@
   border: none;
   padding: 10px 24px;
   font-size: 16px;
-
   margin: 0;
 }
 .influencer-description{
@@ -147,4 +146,40 @@
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 10px 0;
+}
+.see-more{
+  color: #E02C6D;
+  margin-right: 0;
+  margin-left: 1080px;
+  text-decoration: none;
+}
+
+/* Featured products */
+
+.featured-btn{
+  background-color: #E02C6D;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  margin: 0;
+}
+.featured-container{
+  display: flex;
+  gap: 96px;
+  margin: 90px 90px;
+}
+.featured-img{
+  height: 270px;
+  width: 404px;
+}
+.featured-title{
+  font-size: 38px;
+  margin: 0;
+}
+.featured-discription{
+  color: #6C6C6C;
+}
+.featured-box{
+  margin: 23px 0;
 }
