@@ -57,6 +57,9 @@
 .font-28{
   font-size: 28px;
 }
+.align{
+  text-align: center;
+}
 
 /* Navber Sryles */
 .nav-title{
