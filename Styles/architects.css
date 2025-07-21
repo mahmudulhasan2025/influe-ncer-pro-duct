@@ -79,3 +79,14 @@
 .influencer-description{
   margin-bottom: 16px;
 }
+
+/* Companies Logo */
+
+.companies{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 60px;
+  padding: 35px 35px ;
+}
